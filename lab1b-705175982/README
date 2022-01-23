@@ -1,0 +1,25 @@
+NAME: Sultan Madkhali
+EMAIL: s.h.madkhali@gmail.com
+ID: 705175982
+
+lab1b-server.c:
+	A c file that implements an character-at-a-time, full-duplex server side of terminal I/O. The arguments it supports:
+	
+	[--shell=program] that runs commands from the program shell that the user inputs
+	[--compress] compresses and decompresses data for packaging effeciency
+	[--port=number] connects to port number of client 
+lab1b-client.c:
+	A c file that implements an character-at-a-time, full-duplex client side of terminal I/O. The arguments it su\
+pports:
+	[--compress] compresses	and decompresses data for packaging effeciency
+	[--port=number]		connects to port number	  of client
+	[--log=file] scripts all of the data to a file that is neatly written
+Makefile:
+	default: Creates a lab1b-* executable using gcc and the lab1b-*.c using -g, -Wall, -Wextra flags.
+	
+	clean: Deletes all the files created by the Makefile, *.tar.gz, lab1b-* exec.
+
+	dist: Creates the lab1b-705175982.tar.gz tarred tarball.
+
+README:
+	A description of the files in the tarball.

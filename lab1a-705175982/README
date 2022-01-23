@@ -1,0 +1,18 @@
+NAME: Sultan Madkhali
+EMAIL: s.h.madkhali@gmail.com
+ID: 705175982
+
+lab1a.c:
+	A c file that implements an character-at-a-time, full-duplex terminal I/O. The arguments it supports:
+	
+	[--shell=program] that runs commands from the program shell that the user inputs
+
+Makefile:
+	default: Creates a lab1a executable using gcc and the lab1a.c using -g, -Wall, -Wextra flags.
+	
+	clean: Deletes all the files created by the Makefile, *.tar.gz, lab0 exec.
+
+	dist: Creates the lab1a-705175982.tar.gz tarred tarball.
+
+README:
+	A description of the files in the tarball
